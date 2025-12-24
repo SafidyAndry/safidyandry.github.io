@@ -1,22 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cours - Les Arthropodes</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <p>Bonjour tous le monde</p>
-  <!-- Project -->
-  <script src="main.js"></script>
+<header id="header">
+  <div class="container">
+    <h1>Le monde fascinant des Arthropodes</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#classification">Classification</a></li>
+        <li><a href="#morphologie">Morphologie</a></li>
+        <li><a href="#physiologie">Physiologie</a></li>
+        <li><a href="#reproduction">Reproduction</a></li>
+        <li><a href="#nutrition">Nutrition</a></li>
+        <li><a href="#habitat">Habitat</a></li>
+        <li><a href="#comportement">Comportement</a></li>
+        <li><a href="#defense">Défense & Adaptation</a></li>
+        <li><a href="#evolution">Évolution & Importance</a></li>
+        <li><a href="#threejs">Visualisation 3D</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle">&#9776;</button>
+    </nav>
+  </div>
+</header>
+
+<!-- INTRODUCTION -->
+<section id="intro" class="section">
+  <div class="container">
+    <h2>Introduction aux Arthropodes</h2>
+    <p>Les arthropodes sont le groupe animal le plus diversifié sur Terre, comprenant des millions d'espèces réparties dans tous les habitats, des océans profonds aux forêts tropicales et même dans nos maisons. Leur succès évolutif repose sur une combinaison unique d'adaptations et de stratégies de survie.</p>
+    <p>Caractéristiques principales : exosquelette rigide en chitine, segmentation du corps, appendices articulés et systèmes sensoriels sophistiqués. Ces traits leur permettent de se déplacer, se nourrir et interagir avec leur environnement de manière extrêmement efficace.</p>
+    <p>Importance écologique et économique : les arthropodes jouent un rôle clé dans la pollinisation, la décomposition de la matière organique, le contrôle des populations d'autres insectes et la production de ressources comme le miel et la soie. Ils sont également étudiés pour la recherche biomédicale et biomimétique.</p>
+    <p>Ce cours couvre toutes les classes d’arthropodes avec détails scientifiques, incluant les insectes, arachnides, myriapodes et crustacés, en expliquant leur anatomie, leur physiologie, leur comportement et leur impact sur les écosystèmes et la société humaine.</p>
+  </div>
+</section>
+
+<!-- CLASSIFICATION -->
+<section id="classification" class="section section-alt">
+  <div class="container">
+    <h2>Classification</h2>
+    <ul class="accordion">
+      <li><button class="accordion-btn">Insectes</button>
+        <div class="accordion-content">
+          <p>Exemple: Abeilles, papillons...</p>
+          <p>Morphologie: Tête, thorax, abdomen...</p>
+          <p>Reproduction: Métamorphose complète/incomplète...</p>
+        </div>
+      </li>
+      <li><button class="accordion-btn">Arachnides</button>
+        <div class="accordion-content">
+          <p>Exemple: Araignées, scorpions...</p>
+          <p>Respiration: Poumons en book...</p>
+        </div>
+      </li>
+      <li><button class="accordion-btn">Crustacés</button>
+        <div class="accordion-content">
+          <p>Exemple: Crab, crevette...</p>
+          <p>Respiration: Branchies...</p>
+        </div>
+      </li>
+      <li><button class="accordion-btn">Myriapodes</button>
+        <div class="accordion-content">
+          <p>Centipèdes et mille-pattes...</p>
+        </div>
+      </li>
+      <li><button class="accordion-btn">Autres Classes</button>
+        <div class="accordion-content">
+          <p>Exemple: Chélicérates marins, trilobites fossiles...</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- MORPHOLOGIE -->
+<section id="morphologie" class="section">
+  <div class="container">
+    <h2>Morphologie</h2>
+    <div class="morpho-grid">
+      <div class="card"><h3>Tête</h3><p>Yeux, antennes, pièces buccales adaptées.</p></div>
+      <div class="card"><h3>Thorax</h3><p>Supporte pattes et ailes.</p></div>
+      <div class="card"><h3>Abdomen</h3><p>Pour les organes internes et reproductrice</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PHYSIOLOGIE -->
+<section id="physiologie" class="section section-alt">
+  <div class="container">
+    <h2>Physiologie</h2>
+    <p>Les arthropodes possèdent un corps segmenté avec un exosquelette et des appendices articulés. Leur digestion est complète, avec un intestin antérieur pour ingérer et broyer la nourriture, un intestin moyen pour digérer et absorber, et un intestin postérieur pour éliminer les déchets. La respiration varie : trachées chez les insectes, poumons en livre chez les arachnides, branchies chez les crustacés. Le système circulatoire est ouvert, le cœur tubulaire pompe l'hémolymphe transportant nutriments et hormones. L'excrétion se fait via les tubes de Malpighi ou glandes antennaires, assurant l'élimination des déchets et l'équilibre hydrique. Le système nerveux comprend un cerveau segmenté et une chaîne ventrale de ganglions, coordonnant mouvements et perception sensorielle. Les arthropodes détectent lumière, odeurs, vibrations, chaleur et humidité grâce à leurs yeux, antennes et poils sensoriels. Les hormones régulent mue, croissance et reproduction. La reproduction est généralement interne avec sexes séparés, oviposition chez les insectes et spermatophores chez certains crustacés. Les adaptations incluent l'exosquelette protecteur et imperméable, la production d'acide urique pour économiser l'eau, et des systèmes respiratoires adaptés à chaque milieu.</p>
+  </div>
+</section>
+
+<!-- REPRODUCTION -->
+<section id="reproduction" class="section">
+  <div class="container">
+    <h2>Reproduction</h2>
+    <p>La reproduction des arthropodes se fait généralement avec des sexes séparés, bien que certains soient hermaphrodites. La fécondation est le plus souvent interne, assurée par des structures spécialisées comme l'ovipositeur chez les insectes ou les spermatophores chez les crustacés et arachnides. Les conditions nécessaires pour la reproduction incluent un environnement favorable avec température et humidité adaptées, disponibilité de nourriture pour assurer le développement des œufs et larves, et souvent des signaux chimiques ou comportementaux pour l'attraction des partenaires. Les insectes terrestres produisent des œufs résistants à la dessiccation, parfois protégés par des capsules ou déposés dans le sol, les plantes ou l'eau selon l'espèce. La mue et les hormones comme l'ecdysone jouent un rôle clé pour la maturité sexuelle et le cycle reproductif. Certaines espèces présentent des soins parentaux, comme le transport des œufs ou la protection des larves.</p>
+  </div>
+</section>
+
+<!-- NUTRITION -->
+<section id="nutrition" class="section section-alt">
+  <div class="container">
+    <h2>Nutrition</h2>
+    <p>Les arthropodes présentent une grande diversité alimentaire, adaptée à leur morphologie et à leur habitat. Ils peuvent être herbivores, carnivores, omnivores, nécrophages ou parasites. La digestion est assurée par un système digestif complet comprenant un intestin antérieur pour l’ingestion et le broyage, un intestin moyen pour la digestion et l’absorption grâce à des enzymes produites par des glandes digestives, et un intestin postérieur pour l’excrétion des déchets. Les pièces buccales varient selon le type de nourriture : mandibules pour mâcher, trompe pour sucer, ou chélicères pour saisir et broyer les proies. Les arthropodes adaptent leur alimentation selon la disponibilité des ressources et peuvent stocker les nutriments ou économiser l’eau grâce à leur exosquelette et à des systèmes excréteurs efficaces.</p>
+  </div>
+</section>
+
+<!-- HABITAT -->
+<section id="habitat" class="section">
+  <div class="container">
+    <h2>Habitat</h2>
+    <div class="habitat-list">
+      <div class="habitat-card" data-img="images/img1.webp">
+        <div class="habitat-title">Océan</div>
+        <div class="habitat-img"><img src="images/img1.webp" alt="Océan" loading="lazy"></div>
+      </div>
+      <div class="habitat-card" data-img="images/img2.webp">
+        <div class="habitat-title">Rivières</div>
+        <div class="habitat-img"><img src="images/img2.webp" alt="Rivières" loading="lazy"></div>
+      </div>
+      <div class="habitat-card" data-img="images/img1.webp">
+        <div class="habitat-title">Forêts</div>
+        <div class="habitat-img"><img src="images/img1.webp" alt="Forêts" loading="lazy"></div>
+      </div>
+      <div class="habitat-card" data-img="images/img2.webp">
+        <div class="habitat-title">Déserts</div>
+        <div class="habitat-img"><img src="images/img2.webp" alt="Déserts" loading="lazy"></div>
+      </div>
+      <div class="habitat-card" data-img="images/img1.webp">
+        <div class="habitat-title">Zones urbaines</div>
+        <div class="habitat-img"><img src="images/img1.webp" alt="Zones urbaines" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPORTEMENT -->
+<section id="comportement" class="section section-alt">
+  <div class="container">
+    <h2>Comportement</h2>
+    <p>Le comportement des arthropodes est très diversifié et souvent adapté à leur environnement. Il inclut des comportements de recherche de nourriture, de défense, de reproduction et de communication. Beaucoup utilisent des signaux chimiques (phéromones) pour marquer un territoire, attirer un partenaire ou avertir d’un danger. Certains présentent des comportements sociaux complexes, comme chez les abeilles ou les fourmis, avec division du travail et coopération pour la survie de la colonie. La locomotion est adaptée à l’habitat : vol chez les insectes, marche ou nage selon les appendices articulés. Les arthropodes peuvent aussi montrer des comportements de camouflage, mimétisme ou stratégies d’évasion pour échapper aux prédateurs. Le système nerveux et les organes sensoriels leur permettent de détecter la lumière, les odeurs, les vibrations, la chaleur et l’humidité, influençant directement leurs comportements.</p>
+  </div>
+</section>
+
+<!-- DÉFENSE ET ADAPTATION -->
+<section id="defense" class="section">
+  <div class="container">
+    <h2>Défense & Adaptation</h2>
+    <p>Les arthropodes possèdent de nombreuses stratégies de défense et d’adaptation pour survivre dans des environnements variés. Leur principal moyen de protection est l'exosquelette rigide et souvent pigmenté, qui limite les blessures et la perte d'eau. Beaucoup utilisent le camouflage ou le mimétisme pour se fondre dans leur milieu et échapper aux prédateurs. Certains peuvent produire des substances chimiques répulsives ou toxiques pour dissuader les ennemis. La capacité de mue permet la croissance tout en renouvelant la cuticule endommagée. La locomotion rapide, le vol, la nage ou les appendices spécialisés constituent des adaptations pour échapper aux dangers. Les arthropodes aquatiques possèdent des branchies efficaces, tandis que les terrestres ont des trachées et une cuticule imperméable pour économiser l’eau. Enfin, certains présentent des comportements collectifs défensifs, comme les colonies d’insectes sociaux qui protègent leur nid.</p>
+  </div>
+</section>
+
+<!-- ÉVOLUTION & IMPORTANCE -->
+<section id="evolution" class="section section-alt">
+  <div class="container">
+    <h2>Évolution & Importance</h2>
+    <p>Les arthropodes sont apparus il y a plus de 500 millions d'années et ont connu une évolution remarquable, leur permettant de coloniser presque tous les milieux, terrestres, aquatiques et aériens. Leur succès évolutif est lié à des adaptations telles que l’exosquelette protecteur, les appendices articulés, la segmentation, la respiration efficace et des systèmes sensoriels développés. Les arthropodes jouent un rôle fondamental dans les écosystèmes et pour l’homme. Ils participent à la pollinisation des plantes, à la décomposition de la matière organique, au contrôle biologique des ravageurs et servent de nourriture pour de nombreux animaux. Certains sont vecteurs de maladies, mais d’autres sont exploités pour des produits comme le miel, le soie, ou pour la recherche scientifique. Leur diversité et leur adaptabilité font d’eux un groupe clé pour l’équilibre écologique et les activités humaines.</p>
+  </div>
+</section>
+<section id="about" class="section section-about">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-card">
+      <p><strong>Mon nom :</strong> ANDRIANARIMANA Noavisoa Safidy</p>
+      <p><strong>Mon prénom :</strong> Noavisoa Safidy</p>
+      <p><strong>Âge :</strong> 20 ans</p>
+      <p><strong>Téléphone :</strong> 034 49 594 62</p>
+      <p><strong>Email :</strong> <a href="mailto:safidynoavisoa@gmail.com">safidynoavisoa@gmail.com</a></p>
+      <p><strong>Facebook :</strong> <a href="https://www.facebook.com/safidy.fanomezantsu" target="_blank">Noavisoa Safidy</a></p>
+      <p><em><q>Maintenance et intégration</q></em></p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-content">
+
+    <div class="footer-text">
+      <p>© <span id="year"></span> – ANDRIANARIMANA Noavisoa Safidy</p>
+      <p class="footer-sub">Conçu avec HTML, CSS, JavaScript & GSAP<br>Hébergé sur GitHub Pages</p>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://www.facebook.com/safidy.fanomezantsu" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="mailto:safidynoavisoa@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.github.com/SafidyAndry/" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+  </div>
+  
+  <button id="scrollTop" aria-label="Retour en haut">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.17/bundled/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
